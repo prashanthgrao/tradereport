@@ -3,7 +3,7 @@ package com.jpm.tradereporting.data;
 import java.util.Date;
 
 /**
- * All Message should extend this basic class
+ * Core Interface which defines incoming Message to App
  * 
  * @author prashanthgrao
  *

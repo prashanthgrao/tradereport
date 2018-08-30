@@ -18,7 +18,7 @@ public interface TradingEngine {
 	public void process(List<Message> messges);
 
 	/**
-	 * Report the processed messages and publish to publisher
+	 * Report the processed messages using publisher
 	 * @param publisher
 	 */
 	public void report(ReportPublisher publisher);

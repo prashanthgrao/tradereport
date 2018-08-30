@@ -43,6 +43,7 @@ public class TradingEngineImpl implements TradingEngine {
 
 	@Override
 	public void report(ReportPublisher publisher) {
+		// ideally plugin this with some dependency IOC. Hard coding for now!
 		ReportBuilder reportBuiler = new RankReportBuilderDecorator();
 		List<Object> publishMsgs = reportBuiler.constructReport(processedMessages);
 		publisher.publish(publishMsgs);

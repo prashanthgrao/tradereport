@@ -4,7 +4,7 @@ import com.jpm.tradereporting.data.DefaultMessage;
 import com.jpm.tradereporting.data.Message;
 
 /**
- * Default handlder for this FxSettlement (this test)
+ * Default handler for FxSettlement (for this given test)
  * @author prashanthgrao
  *
  */
